@@ -45,13 +45,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          submodules: false
           fetch-depth: 0
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Manually initialize submodules (skip hugo-bearblog)
+        run: |
+          git submodule init
+          git submodule update --init --recursive
       - name: Cache Restore
         id: cache-restore
         uses: actions/cache/restore@v4

@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'Mehmet Kaleli'
 theme = 'hugo-bearblog'
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [menu]
   [[menu.main]]
     name = "About"

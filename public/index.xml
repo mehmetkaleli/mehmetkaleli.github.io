@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mehmet Kaleli</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Mehmet Kaleli</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPU programmng with Rust</title>
+      <link>http://localhost:1313/blog/gpu-programming/</link>
+      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/gpu-programming/</guid>
+      <description>&lt;h1 id=&#34;rusty-rust&#34;&gt;Rusty rust&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Yet another blog</title>
+      <link>http://localhost:1313/blog/yet-another-blog/</link>
+      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/yet-another-blog/</guid>
+      <description>&lt;p&gt;I did this with vibe coding&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Getting Started with Go Programming</title>
+      <link>http://localhost:1313/blog/learning-golang/</link>
+      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/learning-golang/</guid>
+      <description>&lt;p&gt;Go is an amazing programming language created by Google. Here are some key features that make Go stand out:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Simple and clean syntax&lt;/li&gt;&#xA;&lt;li&gt;Built-in concurrency support&lt;/li&gt;&#xA;&lt;li&gt;Fast compilation&lt;/li&gt;&#xA;&lt;li&gt;Great standard library&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Stay tuned for more Go programming tips!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Favorite Development Tools in 2024</title>
+      <link>http://localhost:1313/blog/favorite-dev-tools/</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/favorite-dev-tools/</guid>
+      <description>&lt;p&gt;Here are some development tools I can&amp;rsquo;t live without:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;VS Code - The best code editor&lt;/li&gt;&#xA;&lt;li&gt;Docker - Container management made easy&lt;/li&gt;&#xA;&lt;li&gt;Git - Version control system&lt;/li&gt;&#xA;&lt;li&gt;Postman - API testing tool&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;What are your favorite development tools?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World - My First Blog Post</title>
+      <link>http://localhost:1313/blog/hello-world/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/hello-world/</guid>
+      <description>&lt;p&gt;Welcome to my blog! I&amp;rsquo;m excited to share my thoughts and experiences about technology, programming, and personal growth.&lt;/p&gt;&#xA;&lt;p&gt;This is just the beginning of my blogging journey. I plan to write about:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Programming tutorials&lt;/li&gt;&#xA;&lt;li&gt;Tech reviews&lt;/li&gt;&#xA;&lt;li&gt;Personal projects&lt;/li&gt;&#xA;&lt;li&gt;Learning experiences&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Stay tuned for more content!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;&#xA;&lt;p&gt;👋 Hi there&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header,
+main,
+footer {
+  width: 100%;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+}
+
+.blog-posts {
+  width: 100%;
+}

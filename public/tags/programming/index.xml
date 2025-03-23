@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Mehmet Kaleli</title>
+    <link>http://localhost:1313/tags/programming/</link>
+    <description>Recent content in Programming on Mehmet Kaleli</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started with Go Programming</title>
+      <link>http://localhost:1313/blog/learning-golang/</link>
+      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/learning-golang/</guid>
+      <description>&lt;p&gt;Go is an amazing programming language created by Google. Here are some key features that make Go stand out:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Simple and clean syntax&lt;/li&gt;&#xA;&lt;li&gt;Built-in concurrency support&lt;/li&gt;&#xA;&lt;li&gt;Fast compilation&lt;/li&gt;&#xA;&lt;li&gt;Great standard library&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Stay tuned for more Go programming tips!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

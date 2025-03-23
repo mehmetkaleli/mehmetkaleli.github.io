@@ -1,0 +1,20 @@
+baseURL = 'https://mehmetkaleli.github.io/'
+languageCode = 'en-us'
+title = 'Mehmet Kaleli'
+theme = 'hugo-bearblog'
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/mehmetkaleli"
+    weight = 2
+
+  [[menu.main]]
+    name = "Linkedin"
+    url = "https://www.linkedin.com/in/mohammed-briman/"
+    weight = 3

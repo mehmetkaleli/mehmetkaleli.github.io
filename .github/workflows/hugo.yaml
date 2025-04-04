@@ -45,23 +45,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: false
+          submodules: recursive
           fetch-depth: 0
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Manually clone theme
-        run: |
-          # Remove existing theme directory if it exists
-          rm -rf themes/hugo-bearblog
-          # Create themes directory if it doesn't exist
-          mkdir -p themes
-          # Clone the latest version of the theme directly
-          git clone https://github.com/janraasch/hugo-bearblog.git themes/hugo-bearblog
-      - name: Initialize any other submodules
-        run: |
-          git submodule update --init --recursive
-        continue-on-error: true
+      - name: Install Node.js dependencies
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Cache Restore
         id: cache-restore
         uses: actions/cache/restore@v4
@@ -69,7 +59,8 @@ jobs:
           path: |
             ${{ runner.temp }}/hugo_cache
           key: hugo-${{ github.run_id }}
-          restore-keys: hugo-
+          restore-keys:
+            hugo-
       - name: Build with Hugo
         run: |
           hugo \

@@ -50,10 +50,18 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Manually initialize submodules (skip hugo-bearblog)
+      - name: Manually clone theme
         run: |
-          git submodule init
+          # Remove existing theme directory if it exists
+          rm -rf themes/hugo-bearblog
+          # Create themes directory if it doesn't exist
+          mkdir -p themes
+          # Clone the latest version of the theme directly
+          git clone https://github.com/janraasch/hugo-bearblog.git themes/hugo-bearblog
+      - name: Initialize any other submodules
+        run: |
           git submodule update --init --recursive
+        continue-on-error: true
       - name: Cache Restore
         id: cache-restore
         uses: actions/cache/restore@v4

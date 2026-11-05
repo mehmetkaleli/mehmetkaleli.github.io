@@ -1,3 +1,3 @@
 # Mehmet Kaleli
 
-Hi 👋🏻
+Hi

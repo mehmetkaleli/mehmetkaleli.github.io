@@ -27,9 +27,9 @@
 		"url": "https://opencollective.com/11ty"
 	},
 	"bugs": {
-		"url": "https://github.com/mehmetkaleli/mehmetkaleli-personal-website/issues"
+		"url": "https://github.com/mehmetkaleli/mehmetkaleli/issues"
 	},
-	"homepage": "https://github.com/mehmetkaleli/mehmetkaleli-personal-website#personal-website",
+	"homepage": "https://github.com/mehmetkaleli/mehmetkaleli#personal-website",
 	"devDependencies": {
 		"@11ty/eleventy": "^3.1.8",
 		"@11ty/eleventy-img": "^7.1.1",

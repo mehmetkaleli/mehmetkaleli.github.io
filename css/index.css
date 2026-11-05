@@ -6,33 +6,21 @@
 
 /* Theme colors */
 :root {
-	--color-gray-20: #e0e0e0;
-	--color-gray-50: #C0C0C0;
-	--color-gray-90: #333;
+	--background-color: #121212;
 
-	--background-color: #fff;
+	--text-color: #E0E0E0;
+	--text-color-heading: #F5F5F5;
+	--text-color-secondary: #A0A0A0;
 
-	--text-color: var(--color-gray-90);
-	--text-color-link: #082840;
-	--text-color-link-active: #5f2b48;
-	--text-color-link-visited: #17050F;
+	--text-color-link: #8AB4F8;
+	--text-color-link-active: #8AB4F8;
+	--text-color-link-visited: #8AB4F8;
+
+	--color-gray-20: #A0A0A0;
+	--color-gray-50: #A0A0A0;
+	--color-gray-90: #E0E0E0;
 
 	--syntax-tab-size: 2;
-}
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--color-gray-20: #e0e0e0;
-		--color-gray-50: #C0C0C0;
-		--color-gray-90: #dad8d8;
-
-		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
-		--text-color-link-active: #6969f7;
-		--text-color-link-visited: #a6a6f8;
-
-		--background-color: #15202b;
-	}
 }
 
 
@@ -97,6 +85,10 @@ p:last-child {
 }
 p {
 	line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--text-color-heading);
 }
 
 li {
@@ -202,7 +194,7 @@ header {
 }
 .home-link {
 	flex-grow: 1;
-	font-size: 1.7em; /* 16px /16 */
+	font-size: 1.3em; /* 16px /16 */
 	font-weight: 700;
 }
 .home-link:link:not(:hover) {
@@ -252,7 +244,7 @@ header {
 .postlist-date,
 .postlist-item:before {
 	font-size: 0.8125em; /* 13px /16 */
-	color: var(--color-gray-90);
+	color: var(--text-color-secondary);
 }
 .postlist-date {
 	word-spacing: -0.5px;

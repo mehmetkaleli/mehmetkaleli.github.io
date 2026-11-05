@@ -15,7 +15,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/mehmetkaleli/mehmetkaleli-personal-website.git"
+		"url": "git://github.com/mehmetkaleli/mehmetkaleli.git"
 	},
 	"author": "Mehmet Kaleli",
 	"license": "MIT",

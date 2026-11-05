@@ -1,14 +1,14 @@
 {
-	"name": "mehemtkaleli-personal-website",
+	"name": "mehemtkaleli",
 	"version": "9.0.0",
 	"description": "A repository for a peroanl web site using the Eleventy site generator.",
 	"type": "module",
 	"scripts": {
 		"build": "npx @11ty/eleventy",
 		"build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
-		"build-ghpages": "npx @11ty/eleventy --pathprefix=/mehmetkaleli-personal-website/",
+		"build-ghpages": "npx @11ty/eleventy --pathprefix=/mehmetkaleli/",
 		"start": "npx @11ty/eleventy --serve --quiet",
-		"start-ghpages": "npx @11ty/eleventy --pathprefix=/mehmetkaleli-personal-website/ --serve --quiet",
+		"start-ghpages": "npx @11ty/eleventy --pathprefix=/mehmetkaleli/ --serve --quiet",
 		"debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
 		"debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
 		"benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"

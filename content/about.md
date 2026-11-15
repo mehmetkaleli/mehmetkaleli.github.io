@@ -8,7 +8,7 @@ const eleventyNavigation = {
 
 Hi, my name is Mehmet Kaleli, I’m a researcher and machine learning engineer specializing in deep learning algorithms, model architectures, and inference engineering. 
 
-My research interests include computer architecture, low-level programming, and memory systems. I love computers :)
+My research interests include computer architecture, low-level programming, and memory systems.
 
 I’m also an avid lover of literature, philosophy, and linguistics (honestly, I have way too many interests but I hope they sustain me for a lifetime).
 

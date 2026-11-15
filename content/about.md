@@ -14,7 +14,7 @@ I’m also an avid lover of literature, philosophy, and linguistics (honestly, I
 
 This website aims to serve as a personal archive to write about topics that interest me.
 
-You can reach me on [Mastadon](https://mastodon.social/@mkaleli), [GitHub](https://github.com/mehmetkaleli), or [LinkedIn](https://www.linkedin.com/in/mehmet-kaleli/). You can also check my [CV](https://docs.google.com/document/d/1RtRRq0p1hikThu6AF4Et53hWUZFKpOgp/edit?usp=sharing&ouid=106858233139323722258&rtpof=true&sd=true). 
+You can reach me on [Mastodon](https://mastodon.social/@mkaleli), [GitHub](https://github.com/mehmetkaleli), or [LinkedIn](https://www.linkedin.com/in/mehmet-kaleli/). You can also check my [CV](https://docs.google.com/document/d/1RtRRq0p1hikThu6AF4Et53hWUZFKpOgp/edit?usp=sharing&ouid=106858233139323722258&rtpof=true&sd=true). 
 
 ## **AI Policy**
 
